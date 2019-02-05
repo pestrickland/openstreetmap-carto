@@ -2,9 +2,11 @@
 @glacier: #ddecec;
 @glacier-line: #9cf;
 
+@waterway-text-repeat-distance: 200;
+
 #water-areas {
   [natural = 'glacier']::natural {
-    [zoom >= 8] {
+    [zoom >= 5] {
       line-width: 1.0;
       line-color: @glacier-line;
       polygon-fill: @glacier;
@@ -85,7 +87,8 @@
   [waterway = 'ditch'],
   [waterway = 'drain'] {
     [int_tunnel = 'no'] {
-      [zoom >= 13] {
+      [int_intermittent != 'yes'][zoom >= 14],
+      [zoom >= 15] {
         line-width: 2.5;
         line-color: white;
         [waterway = 'stream'][zoom >= 15] {
@@ -191,7 +194,8 @@
   [waterway = 'stream'],
   [waterway = 'ditch'],
   [waterway = 'drain'] {
-    [zoom >= 13] {
+    [int_intermittent != 'yes'][zoom >= 14],
+    [zoom >= 15] {
       // the additional line of land color is used to provide a background for dashed casings
       [int_tunnel = 'yes'] {
         background/line-width: 2;
@@ -201,16 +205,14 @@
       water/line-color: @water-color;
 
       [bridge = 'yes'] {
-        [zoom >= 14] {
-          bridgecasing/line-color: black;
-          bridgecasing/line-join: round;
-          bridgecasing/line-width: 4;
-          [waterway = 'stream'][zoom >= 15] { bridgecasing/line-width: 4; }
-          bridgeglow/line-color: white;
-          bridgeglow/line-join: round;
-          bridgeglow/line-width: 3;
-          [waterway = 'stream'][zoom >= 15] { bridgeglow/line-width: 3; }
-        }
+        bridgecasing/line-color: black;
+        bridgecasing/line-join: round;
+        bridgecasing/line-width: 4;
+        [waterway = 'stream'][zoom >= 15] { bridgecasing/line-width: 4; }
+        bridgeglow/line-color: white;
+        bridgeglow/line-join: round;
+        bridgeglow/line-width: 3;
+        [waterway = 'stream'][zoom >= 15] { bridgeglow/line-width: 3; }
       }
 
       [int_intermittent = 'yes'] {
@@ -245,9 +247,8 @@
 }
 
 #water-lines-text {
-  [lock != 'yes'][int_tunnel != 'yes'] {
-    [waterway = 'river'][zoom >= 13] {
-      text-name: "[name]";
+  [lock = 'yes'][zoom >= 17] {
+      text-name: "[lock_name]";
       text-face-name: @oblique-fonts;
       text-placement: line;
       text-fill: @water-text;
@@ -255,18 +256,31 @@
       text-size: 10;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
+  }
+
+  [lock != 'yes'][int_tunnel != 'yes'] {
+    [waterway = 'river'][zoom >= 13] {
+      text-name: "[name]";
+      text-size: 10;
+      text-face-name: @oblique-fonts;
+      text-fill: @water-text;
+      text-halo-radius: @standard-halo-radius;
+      text-halo-fill: @standard-halo-fill;
+      text-spacing: 400;
+      text-placement: line;
+      text-repeat-distance: @waterway-text-repeat-distance;
       [zoom >= 14] { text-size: 12; }
-      [int_tunnel = 'yes'] { text-min-distance: 200; }
     }
 
     [waterway = 'canal'][zoom >= 13] {
       text-name: "[name]";
+      text-size: 10;
       text-face-name: @oblique-fonts;
+      text-fill: @water-text;
       text-halo-radius: @standard-halo-radius;
       text-halo-fill: @standard-halo-fill;
-      text-size: 10;
       text-placement: line;
-      text-fill: @water-text;
+      text-repeat-distance: @waterway-text-repeat-distance;
     }
 
     [waterway = 'stream'][zoom >= 15] {
@@ -280,19 +294,23 @@
       text-placement: line;
       text-vertical-alignment: middle;
       text-dy: 8;
+      text-repeat-distance: @waterway-text-repeat-distance;
     }
 
     [waterway = 'drain'],
     [waterway = 'ditch'] {
       [zoom >= 15] {
         text-name: "[name]";
-        text-face-name: @oblique-fonts;
         text-size: 10;
+        text-face-name: @oblique-fonts;
         text-fill: @water-text;
-        text-spacing: 600;
-        text-placement: line;
         text-halo-radius: @standard-halo-radius;
         text-halo-fill: @standard-halo-fill;
+        text-spacing: 600;
+        text-placement: line;
+        text-vertical-alignment: middle;
+        text-dy: 8;
+        text-repeat-distance: @waterway-text-repeat-distance;
       }
     }
   }
@@ -302,6 +320,7 @@
 .text[zoom >= 10] {
   [feature = 'natural_water'],
   [feature = 'natural_bay'],
+  [feature = 'natural_strait'],
   [feature = 'landuse_reservoir'],
   [feature = 'landuse_basin'],
   [feature = 'waterway_dock'] {

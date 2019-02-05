@@ -70,10 +70,12 @@
       polygon-fill: @land-color;
     }
     #piers-line {
-      line-width: 1.5;
+      line-width: 0.5;
       line-color: @land-color;
-      [zoom >= 13] { line-width: 3; }
-      [zoom >= 16] { line-width: 7; }
+      line-cap: square;
+      [zoom >= 13] { line-width: 1; }
+      [zoom >= 15] { line-width: 2; }
+      [zoom >= 17] { line-width: 4; }
     }
   }
 
@@ -167,7 +169,6 @@
 #springs {
   [natural = 'spring'][zoom >= 14] {
     marker-file: url('symbols/spring.svg');
-    marker-placement: interior;
     marker-clip: false;
   }
 }
