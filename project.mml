@@ -2633,402 +2633,402 @@ Layer:
           ) AS amenity_low_priority_poly
     properties:
       minzoom: 14
-  - id: contours-hp
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/hp/HP.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-ht
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/ht/HT.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-hu
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/hu/HU.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-hw
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/hw/HW.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-hx
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/hx/HX.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-hy
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/hy/HY.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-hz
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/hz/HZ.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-na
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/na/NA.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nb
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nb/NB.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nc
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nc/NC.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nd
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nd/ND.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nf
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nf/NF.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-ng
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/ng/NG.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nh
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nh/NH.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nj
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nj/NJ.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nk
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nk/NK.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nl
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nl/NL.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nm
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nm/NM.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nn
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nn/NN.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-no
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/no/NO.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nr
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nr/NR.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-ns
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/ns/NS.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nt
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nt/NT.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nu
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nu/NU.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nw
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nw/NW.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nx
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nx/NX.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-ny
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/ny/NY.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-nz
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/nz/NZ.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-ov
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/ov/OV.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sd
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sd/SD.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-se
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/se/SE.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sh
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sh/SH.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sj
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sj/SJ.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sk
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sk/SK.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sm
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sm/SM.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sn
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sn/SN.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
+#  - id: contours-hp
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/hp/HP.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-ht
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/ht/HT.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-hu
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/hu/HU.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-hw
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/hw/HW.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-hx
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/hx/HX.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-hy
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/hy/HY.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-hz
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/hz/HZ.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-na
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/na/NA.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nb
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nb/NB.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nc
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nc/NC.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nd
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nd/ND.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nf
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nf/NF.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-ng
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/ng/NG.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nh
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nh/NH.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nj
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nj/NJ.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nk
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nk/NK.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nl
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nl/NL.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nm
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nm/NM.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nn
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nn/NN.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-no
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/no/NO.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nr
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nr/NR.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-ns
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/ns/NS.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nt
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nt/NT.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nu
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nu/NU.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nw
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nw/NW.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nx
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nx/NX.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-ny
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/ny/NY.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-nz
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/nz/NZ.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-ov
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/ov/OV.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sd
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sd/SD.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-se
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/se/SE.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sh
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sh/SH.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sj
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sj/SJ.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sk
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sk/SK.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sm
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sm/SM.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sn
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sn/SN.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
   - id: contours-so
     geometry: linestring
     extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
@@ -3040,39 +3040,39 @@ Layer:
     srs: "+init=epsg:27700"
     properties:
       minzoom: 13
-  - id: contours-sp
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sp/SP.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sr
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sr/SR.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-ss
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/ss/SS.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
+#  - id: contours-sp
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sp/SP.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sr
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sr/SR.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-ss
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/ss/SS.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
   - id: contours-st
     geometry: linestring
     extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
@@ -3095,162 +3095,158 @@ Layer:
     srs: "+init=epsg:27700"
     properties:
       minzoom: 13
-  - id: contours-sv
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sv/SV.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sw
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sw/SW.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sx
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sx/SX.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sy
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sy/SY.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-sz
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/sz/SZ.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-ta
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/ta/TA.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-tf
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/tf/TF.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-tg
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/tg/TG.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-tl
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/tl/TL.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-tm
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/tm/TM.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-tq
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/tq/TQ.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-tr
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/tr/TR.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
-  - id: contours-tv
-    geometry: linestring
-    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
-    class: "contours"
-    Datasource:
-      file: data/terr50_cesh_gb/tv/TV.shp
-      type: shape
-    srs-name: custom
-    srs: "+init=epsg:27700"
-    properties:
-      minzoom: 13
+#  - id: contours-sv
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sv/SV.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sw
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sw/SW.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sx
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sx/SX.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sy
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sy/SY.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-sz
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/sz/SZ.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-ta
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/ta/TA.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-tf
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/tf/TF.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-tg
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/tg/TG.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-tl
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/tl/TL.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-tm
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/tm/TM.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-tq
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/tq/TQ.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-tr
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/tr/TR.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
+#  - id: contours-tv
+#    geometry: linestring
+#    extent: "-2.585975822676941, 52.14682951134574, -2.4407307214808047, 52.23736662661617"
+#    class: "contours"
+#    Datasource:
+#      file: data/terr50_cesh_gb/tv/TV.shp
+#      type: shape
+#    srs-name: custom
+#    srs: "+init=epsg:27700"
+#    properties:
+#      minzoom: 13
   - id: grid
     geometry: polygon
     extent: "-7.55715989372837, 49.76680722270928, 2.7814598620646507, 60.822590112656144"
     Datasource:
       file: data/OSGB_grids/OSGB_Grid_1km.shp
-      # "project": "gb-leisure",
-        # "srs": "",
+      project: "gb-leisure"
       type: shape
-      # },
-      # "layer": null,
     srs-name: custom
     srs: "+init=epsg:27700"
-      # "advanced": {
-        # "type": "shape"
+    type: shape
     properties:
       minzoom: 12

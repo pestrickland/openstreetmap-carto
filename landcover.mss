@@ -244,7 +244,7 @@
     [zoom >= 11] { polygon-fill: @built-up-z11; }
     [zoom >= 12] { polygon-fill: @built-up-z12; }
     [zoom >= 13] { polygon-fill: @residential; }
-    [zoom >= 16] {
+    [zoom >= 15] {
       line-width: .5;
       line-color: @residential-line;
       [name != ''] {
@@ -312,7 +312,7 @@
       [way_pixels >= 4]  { polygon-pattern-gamma: 0.75; }
       [way_pixels >= 64] { polygon-pattern-gamma: 0.3;  }
     }
-    [zoom >= 16] {
+    [zoom >= 15] {
       line-width: 0.5;
       line-color: desaturate(darken(@allotments, 10%), 10%);
       [name != null] {
@@ -332,7 +332,7 @@
 
   [feature = 'landuse_farmyard'][zoom >= 10] {
     polygon-fill: @farmyard;
-      [zoom >= 16] {
+      [zoom >= 15] {
         line-width: 0.5;
         line-color: @farmyard-line;
         [name != ''] {
@@ -347,7 +347,7 @@
   [feature = 'landuse_greenhouse_horticulture'] {
     [zoom >= 5] {
       polygon-fill: @farmland;
-      [zoom >= 16] {
+      [zoom >= 15] {
         line-width: .5;
         line-color: @farmland-line;
       }
@@ -709,7 +709,7 @@
     line-join: round;
     line-cap: square;
     line-color: @grass;
-    [zoom >= 16] {
+    [zoom >= 15] {
       line-width: 6;
       [zoom >= 18] {
         line-width: 12;
@@ -825,7 +825,7 @@
 }
 
 #area-barriers {
-  [zoom >= 16] {
+  [zoom >= 15] {
     line-color: #444;
     line-width: 0.4;
     [feature = 'barrier_hedge'] {
@@ -835,7 +835,7 @@
 }
 
 .barriers {
-  [zoom >= 16] {
+  [zoom >= 15] {
     line-width: 0.4;
     line-color: #444;
   }
@@ -843,7 +843,7 @@
     line-width: 0.4;
     line-color: #444;
   }
-  [feature = 'barrier_hedge'][zoom >= 16] {
+  [feature = 'barrier_hedge'][zoom >= 15] {
     line-width: 3;
     line-color: #aed1a0;
   }
