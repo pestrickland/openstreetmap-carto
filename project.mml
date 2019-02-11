@@ -192,7 +192,7 @@ Layer:
               THEN 'yes' ELSE 'no' END AS int_intermittent,
             CASE WHEN tunnel IN ('yes', 'culvert') THEN 'yes' ELSE 'no' END AS int_tunnel
           FROM planet_osm_line
-          WHERE waterway IN ('stream', 'drain', 'ditch')
+          WHERE waterway IN ('stream', 'drain', 'ditch', 'river')
         ) AS water_lines_casing
     properties:
       minzoom: 13
@@ -631,7 +631,7 @@ Layer:
           ) AS features
         ) AS area_barriers
     properties:
-      minzoom: 16
+      minzoom: 15
   - id: ferry-routes
     geometry: linestring
     <<: *extents
@@ -1218,7 +1218,7 @@ Layer:
           WHERE power = 'minor_line'
         ) AS power_minorline
     properties:
-      minzoom: 16
+      minzoom: 15
   - id: power-line
     geometry: linestring
     <<: *extents
@@ -1271,7 +1271,7 @@ Layer:
           WHERE "natural" = 'tree_row'
         ) AS trees
     properties:
-      minzoom: 16
+      minzoom: 15
   - id: country-names
     class: country
     geometry: point
@@ -1767,7 +1767,7 @@ Layer:
           WHERE power = 'pole'
         ) AS power_poles
     properties:
-      minzoom: 16
+      minzoom: 15
   - id: roads-text-ref-low-zoom
     geometry: linestring
     <<: *extents

@@ -62,6 +62,8 @@
     [zoom >= 8] {
       [int_intermittent = 'no'] {
         polygon-fill: @water-color;
+        line-width: 0.75;
+        line-color: darken(@water-color, 50%);
         [way_pixels >= 4] {
           polygon-gamma: 0.75;
         }
@@ -85,14 +87,20 @@
 #water-lines-casing {
   [waterway = 'stream'],
   [waterway = 'ditch'],
-  [waterway = 'drain'] {
+  [waterway = 'drain'],
+  [waterway = 'river'] {
     [int_tunnel = 'no'] {
       [int_intermittent != 'yes'][zoom >= 14],
       [zoom >= 15] {
         line-width: 2.5;
-        line-color: white;
+        line-color: darken(@water-color, 50%);
         [waterway = 'stream'][zoom >= 15] {
-          line-width: 3.5;
+          // 1.5 px bigger than water-lines for stream at z=15 (3)
+          line-width: 4.5;
+        }
+        [waterway = 'river'][zoom >= 15] {
+          // water-lines for river at z=15 is 6, so 1.5px thicker for the casing.
+          line-width: 7.5;
         }
         [int_intermittent = 'yes'] {
           line-dasharray: 4,3;
