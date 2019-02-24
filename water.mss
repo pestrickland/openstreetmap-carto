@@ -91,16 +91,16 @@
   [waterway = 'river'] {
     [int_tunnel = 'no'] {
       [int_intermittent != 'yes'][zoom >= 14],
-      [zoom >= 15] {
+      [zoom >= 14] {
         line-width: 2.5;
         line-color: darken(@water-color, 50%);
-        [waterway = 'stream'][zoom >= 15] {
-          // 1.5 px bigger than water-lines for stream at z=15 (3)
-          line-width: 4.5;
+        [waterway = 'stream'][zoom >= 14] {
+          // 1 px bigger than water-lines for stream at z=14 (2)
+          line-width: 3.0;
         }
-        [waterway = 'river'][zoom >= 15] {
-          // water-lines for river at z=15 is 6, so 1.5px thicker for the casing.
-          line-width: 7.5;
+        [waterway = 'river'][zoom >= 14] {
+          // water-lines for river at z=14 is 5, so 1.5px thicker for the casing.
+          line-width: 6.5;
         }
         [int_intermittent = 'yes'] {
           line-dasharray: 4,3;
@@ -203,7 +203,7 @@
   [waterway = 'ditch'],
   [waterway = 'drain'] {
     [int_intermittent != 'yes'][zoom >= 14],
-    [zoom >= 15] {
+    [zoom >= 14] {
       // the additional line of land color is used to provide a background for dashed casings
       [int_tunnel = 'yes'] {
         background/line-width: 2;
@@ -237,7 +237,7 @@
           background/line-width: 3;
         }
       }
-      [int_tunnel = 'yes'][zoom >= 15] {
+      [int_tunnel = 'yes'][zoom >= 14] {
         background/line-width: 3.5;
         water/line-width: 3.5;
         [waterway = 'stream'] {
