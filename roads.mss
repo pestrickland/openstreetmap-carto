@@ -1808,9 +1808,9 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'highway_bridleway'],
     [feature = 'highway_path'][horse = 'designated'],
     [feature = 'highway_track'][horse = 'designated'] {
-      [zoom >= 15][access != 'no'],
-      [zoom >= 15] {
-        #roads-fill[zoom >= 15] {
+      [zoom >= 14][access != 'no'],
+      [zoom >= 14] {
+        #roads-fill[zoom >= 14] {
           background/line-color: @bridleway-casing;
           background/line-cap: round;
           background/line-join: round;
@@ -1831,8 +1831,8 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'highway_footway'],
     [feature = 'highway_path'][bicycle != 'designated'][horse != 'designated'],
     [feature = 'highway_track'][foot = 'designated'] {
-      [zoom >= 15] {
-        #roads-fill[zoom >= 15] {
+      [zoom >= 14] {
+        #roads-fill[zoom >= 14] {
           background/line-color: @footway-casing;
           background/line-cap: round;
           background/line-join: round;
@@ -1851,8 +1851,8 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     [feature = 'highway_cycleway'],
     [feature = 'highway_path'][bicycle = 'designated'][foot != 'designated'],
     [feature = 'highway_track'][bicycle = 'designated'][foot != 'designated'] {
-      [zoom >= 15] {
-        #roads-fill[zoom >= 15] {
+      [zoom >= 14] {
+        #roads-fill[zoom >= 14] {
           background/line-color: @cycleway-casing;
           background/line-cap: round;
           background/line-join: round;
@@ -1898,9 +1898,9 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
     }
 
     [feature = 'highway_track'][foot != 'designated'] {
-      [zoom >= 15] {
+      [zoom >= 14] {
         // Dashed casing used to allow white/light grey fill for tracks.
-        #roads-fill[zoom >= 15] {
+        #roads-fill[zoom >= 14] {
           background/line-opacity: 0.6;
           background/line-color: @track-casing;
           background/line-dasharray: 4,4;
