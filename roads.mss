@@ -113,7 +113,7 @@
 @residential-width-z13:           2.5;
 @living-street-width-z13:         2;
 @bridleway-width-z13:             0.3;
-@footway-width-z14:               0.7;
+@footway-width-z13:               0.7;
 @cycleway-width-z13:              0.7;
 @track-width-z13:                 0.5;
 @track-grade1-width-z13:          0.5;
@@ -129,6 +129,7 @@
 @road-width-z14:                  2;
 @service-width-z14:               2;
 @bridleway-width-z14:             2;
+@footway-width-z14:               2;
 
 @motorway-width-z15:             10;
 @motorway-link-width-z15:         7.8;
@@ -1837,7 +1838,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
           background/line-color: @footway-casing;
           background/line-cap: round;
           background/line-join: round;
-          background/line-width: @footway-width-z15 + 2 * @paths-background-width;
+          background/line-width: @footway-width-z14 + 2 * @paths-background-width;
           background/line-opacity: 0.4;
         }
         line/line-color: @footway-fill;
@@ -1845,7 +1846,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         line/line-dasharray: 8,4;
         line/line-join: round;
         line/line-cap: butt;
-        line/line-width: @footway-width-z15;
+        line/line-width: @footway-width-z14;
       }
     }
 
