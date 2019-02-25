@@ -4,11 +4,14 @@ FROM ubuntu:bionic
 RUN apt-get update && apt-get install --no-install-recommends -y \
     ca-certificates curl gnupg postgresql-client python fonts-hanazono \
     fonts-noto-cjk fonts-noto-hinted fonts-noto-unhinted mapnik-utils \
-    nodejs npm ttf-unifont unzip && rm -rf /var/lib/apt/lists/*
+    nodejs npm ttf-unifont unzip \
+    && apt-get install -y python-mapnik python-pip \
+    && rm -rf /var/lib/apt/lists/*
 
 # Kosmtik with plugins, forcing prefix to /usr because bionic sets
 # npm prefix to /usr/local, which breaks the install
 RUN npm set prefix /usr && npm install -g kosmtik
+RUN pip install nik4
 
 WORKDIR /usr/lib/node_modules/kosmtik/
 RUN kosmtik plugins --install kosmtik-overpass-layer \
