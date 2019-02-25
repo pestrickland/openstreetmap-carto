@@ -120,6 +120,7 @@
 @track-grade2-width-z13:          0.5;
 @steps-width-z13:                 0.7;
 
+// Zoom 14 is the main focus for our explorer-like maps.
 @secondary-width-z14:             5;
 @tertiary-width-z14:              5;
 @residential-width-z14:           3;
@@ -127,8 +128,8 @@
 @pedestrian-width-z14:            3;
 @road-width-z14:                  2;
 @service-width-z14:               2;
+@bridleway-width-z14:             2;
 
-// Zoom 15 is the main focus for our explorer-like maps.
 @motorway-width-z15:             10;
 @motorway-link-width-z15:         7.8;
 @trunk-width-z15:                10;
@@ -1814,13 +1815,13 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
           background/line-color: @bridleway-casing;
           background/line-cap: round;
           background/line-join: round;
-          background/line-width: @bridleway-width-z15 + 2 * @paths-background-width;
+          background/line-width: @bridleway-width-z14 + 2 * @paths-background-width;
           background/line-opacity: 0.4;
         }
         line/line-color: @bridleway-fill;
         [access = 'no'] { line/line-color: @bridleway-fill-noaccess; }
         line/line-dasharray: 16,4;
-        line/line-width: @bridleway-width-z15;
+        line/line-width: @bridleway-width-z14;
         #tunnels {
           line/line-join: round;
           line/line-cap: round;
