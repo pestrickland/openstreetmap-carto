@@ -130,6 +130,7 @@
 @service-width-z14:               2;
 @bridleway-width-z14:             2;
 @footway-width-z14:               2;
+@track-width-z14:                 2;
 
 @motorway-width-z15:             10;
 @motorway-link-width-z15:         7.8;
@@ -1843,7 +1844,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         }
         line/line-color: @footway-fill;
         [access = 'no'] { line/line-color: @footway-fill-noaccess; }
-        line/line-dasharray: 8,4;
+        line/line-dasharray: 6,4;
         line/line-join: round;
         line/line-cap: butt;
         line/line-width: @footway-width-z14;
@@ -1909,7 +1910,7 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
           [access = 'no'] { background/line-dasharray: 4,8; }
           background/line-join: round;
           background/line-cap: butt;
-          background/line-width: @track-width-z15 + 2 * @paths-background-width;
+          background/line-width: @track-width-z14 + 2 * @paths-background-width;
         }
 
         // Set the properties of the line colour inside.
@@ -1918,16 +1919,16 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
         [access = 'no'] {
           line/line-color: @track-fill-noaccess;
           line/line-dasharray: 4,8;
+          // Add no entry symbol for no-access tracks.
           marker-file: url(symbols/no_entry.svg);
-          marker-transform: scale(1.5,1.5);
+          marker-transform: scale(1.2,1.2);
           marker-placement: interior;
         }
         line/line-cap: butt;
         line/line-join: round;
         line/line-opacity: 1.0;
         line/line-clip:false;
-
-        line/line-width: @track-width-z15;
+        line/line-width: @track-width-z14;
       }
     }
 
