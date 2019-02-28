@@ -3,7 +3,7 @@ for d in $(ls)
 do
     cd $d
     file="${d^^}.shp"
-    find . -type f -name '*.zip' -exec unzip {} \;
+    find . -type f -name '*.zip' -print0 | xargs -0 -r -n1 unzip
     for i in $(ls *_line.shp)
     do
         if [ -f "$file" ]
@@ -15,7 +15,8 @@ do
             ogr2ogr -f 'ESRI Shapefile' $file $i
         fi
     done
-    find . -type f | grep -E '[A-Z]{2}[0-9]{2}_' | xargs rm
-    find . -type f | grep -E 'Metadata_' | xargs rm
+    find . -type f -print0 | grep -E -z '[A-Z]{2}[0-9]{2}_' | xargs -0 -r rm -f
+    find . -type f -print0 | grep -E -z 'Metadata_' | xargs -0 -r rm -f
+    find . -type f -name '*.zip' -print0 | xargs -0 -r rm -f
     cd ..
 done
