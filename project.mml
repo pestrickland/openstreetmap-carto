@@ -1824,7 +1824,7 @@ Layer:
           WHERE power = 'minor_line'
         ) AS power_minorline
     properties:
-      minzoom: 15
+      minzoom: 13
   - id: power-line
     geometry: linestring
     <<: *extents
@@ -1838,7 +1838,7 @@ Layer:
             OR (power = 'cable' AND tags->'location' IN ('overground', 'overhead', 'surface', 'outdoor', 'platform'))
         ) AS power_line
     properties:
-      minzoom: 14
+      minzoom: 13
   - id: protected-areas
     geometry: polygon
     <<: *extents
@@ -2360,7 +2360,7 @@ Layer:
           WHERE power = 'tower'
         ) AS power_towers
     properties:
-      minzoom: 14
+      minzoom: 13
   - id: power-poles
     geometry: point
     <<: *extents
@@ -2373,7 +2373,7 @@ Layer:
           WHERE power = 'pole'
         ) AS power_poles
     properties:
-      minzoom: 15
+      minzoom: 13
   - id: roads-text-ref-low-zoom
     geometry: linestring
     <<: *extents
