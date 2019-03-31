@@ -244,7 +244,8 @@
     [zoom >= 11] { polygon-fill: @built-up-z11; }
     [zoom >= 12] { polygon-fill: @built-up-z12; }
     [zoom >= 13] { polygon-fill: @residential; }
-    [zoom >= 15] {
+    [zoom >= 14] {
+      polygon-fill: lighten(@residential, 10%);
       line-width: .5;
       line-color: @residential-line;
       [name != ''] {
