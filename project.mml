@@ -40,7 +40,7 @@ Stylesheet:
   - fonts.mss
   - shapefiles.mss
   - landcover.mss
-  - contours.mss
+  # - contours.mss
   - water.mss
   - water-features.mss
   - road-colors-generated.mss
@@ -1059,7 +1059,7 @@ Layer:
           ORDER BY COALESCE(layer,0), way_area DESC
         ) AS buildings
     properties:
-      minzoom: 14
+      minzoom: 13
   - id: tunnels
     class: access
     geometry: linestring
